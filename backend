@@ -1,0 +1,46 @@
+zingle-backend/
+├─ package.json
+├─ tsconfig.json
+├─ .env
+├─ server.ts
+├─ config/
+│   ├─ db.ts
+│   ├─ redis.ts
+│   └─ zegocloud.ts
+├─ models/
+│   ├─ user.model.ts
+│   ├─ wallet.model.ts
+│   ├─ transaction.model.ts
+│   ├─ gift.model.ts
+│   ├─ live_room.model.ts
+│   ├─ pk_battle.model.ts
+│   ├─ agency.model.ts
+│   └─ withdrawal.model.ts
+├─ routes/
+│   ├─ auth.routes.ts
+│   ├─ user.routes.ts
+│   ├─ wallet.routes.ts
+│   ├─ gift.routes.ts
+│   ├─ live.routes.ts
+│   ├─ pk.routes.ts
+│   ├─ agency.routes.ts
+│   └─ admin.routes.ts
+├─ controllers/
+│   ├─ auth.controller.ts
+│   ├─ user.controller.ts
+│   ├─ wallet.controller.ts
+│   ├─ gift.controller.ts
+│   ├─ live.controller.ts
+│   ├─ pk.controller.ts
+│   ├─ agency.controller.ts
+│   └─ admin.controller.ts
+├─ middleware/
+│   ├─ auth.middleware.ts
+│   ├─ role.middleware.ts
+│   └─ validate.middleware.ts
+└─ utils/
+    ├─ jwt.ts
+    ├─ coinTransaction.ts
+    ├─ leaderboard.ts
+    ├─ notifications.ts
+    └─ zegocloud.ts
